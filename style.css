@@ -7,6 +7,8 @@
 body {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 body>div {
@@ -17,7 +19,7 @@ body>div {
 .about-box,
 .card {
   /* border: 1px black solid; */
-  box-shadow: 1px 1px 5px 2px lightgray;
+  box-shadow: 1px 1px 4px 2px lightgray;
 }
 
 /* About section */
@@ -34,8 +36,8 @@ body>div {
 /* Works section */
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 5px;
+  grid-template-columns: repeat(auto-fill, 150px);
+  gap: 1rem;
 }
 
 .card {
