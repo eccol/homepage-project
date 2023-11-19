@@ -23,8 +23,22 @@ body>div {
 }
 
 /* About section */
+.profile-photo {
+  background-image: url(http://placekitten.com/300/400);
+  flex: 1 0 300px;
+  min-height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: white;
+}
+
 .about {
   display: flex;
+  flex: 2 0 0;
 }
 
 .about-box {
@@ -48,7 +62,7 @@ body>div {
 .contact {
   background-color: lightblue;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 /* Breakpoints */
