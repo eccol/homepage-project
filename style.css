@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body>div {
+  padding: 2rem;
+}
+
+.about {
+  display: flex;
+}
+
+.about-box {
+  border: 1px black solid;
+  padding: 1rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 5px;
+}
+
+.card {
+  border: 1px black solid;
+  width: min-content;
+}
+
+.contact {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
