@@ -1,3 +1,4 @@
+/* Blank it */
 * {
   margin: 0;
   padding: 0;
@@ -12,15 +13,25 @@ body>div {
   padding: 2rem;
 }
 
+/* Box shadows */
+.about-box,
+.card {
+  /* border: 1px black solid; */
+  box-shadow: 1px 1px 5px 2px lightgray;
+}
+
+/* About section */
 .about {
   display: flex;
 }
 
 .about-box {
-  border: 1px black solid;
   padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
+/* Works section */
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -28,10 +39,10 @@ body>div {
 }
 
 .card {
-  border: 1px black solid;
   width: min-content;
 }
 
+/* Footer */
 .contact {
   background-color: lightblue;
   display: flex;
