@@ -24,7 +24,6 @@ body {
 /* Box shadows */
 .about-box,
 .card {
-  /* border: 1px black solid; */
   box-shadow: 1px 1px 4px 2px lightgray;
 }
 
@@ -87,9 +86,10 @@ body {
     box-shadow: none;
   }
 
-  .about,
-  .contact {
+  .about>div,
+  .contact>div {
     flex-direction: column;
+    align-items: center;
   }
 
   .card-container {
