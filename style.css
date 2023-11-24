@@ -67,6 +67,10 @@ body {
   width: min-content;
 }
 
+.card-body {
+  padding: 10px;
+}
+
 /* Footer */
 .contact>div {
   display: flex;
@@ -76,6 +80,14 @@ body {
 .contact {
   background-color: var(--accent-color);
   color: white;
+}
+
+.contact p {
+  padding: 0.75rem 0;
+}
+
+.contact img {
+  margin: 0 1rem;
 }
 
 /* Breakpoints */
@@ -107,5 +119,9 @@ body {
 
   .card img {
     width: 100%;
+  }
+
+  .contact img {
+    margin: 0;
   }
 }
