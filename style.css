@@ -34,6 +34,12 @@ body {
   color: black;
 }
 
+.card-header img,
+.card-header span {
+  height: 20px;
+  flex: 0;
+}
+
 .center-icon {
   display: flex;
   align-items: center;
@@ -84,6 +90,15 @@ body {
 
 .card-body {
   padding: 10px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-header h3 {
+  flex: 1;
 }
 
 /* Footer */
