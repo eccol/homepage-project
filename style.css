@@ -25,6 +25,15 @@ body {
   max-width: 1200px;
 }
 
+/* Icons */
+.icon {
+  height: 30px;
+}
+
+.card a span {
+  color: black;
+}
+
 /* Box shadows */
 .about-box,
 .card {
