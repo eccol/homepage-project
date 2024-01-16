@@ -78,7 +78,13 @@ body {
   display: flex;
   justify-content: end;
   align-items: end;
-  color: white;
+  color: black;
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.profile-photo h1 {
+  padding: 10px;
 }
 
 .about > div {
