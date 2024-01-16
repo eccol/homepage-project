@@ -22,7 +22,7 @@ body {
   height: 450px;
   background-color: var(--accent-color);
   z-index: -1;
-  transform: rotate(-8deg) translate(-70px);
+  transform: rotate(-8deg) translateX(-70px);
   transform-origin: top left;
 }
 
@@ -140,6 +140,10 @@ body {
 @media (max-width: 550px) {
   .container {
     padding: 0.5rem;
+  }
+
+  .header-color {
+    transform: rotate(-8deg) translateX(-70px) translateY(-30px);
   }
 
   .about-box {
