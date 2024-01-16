@@ -69,9 +69,11 @@ body {
 .profile-photo {
   background-image: url(http://placekitten.com/300/400);
   flex: 1 0 300px;
-  min-height: 400px;
+  height: 400px;
   background-size: contain;
   background-repeat: no-repeat;
+
+  align-self: flex-start;
 
   display: flex;
   justify-content: end;
@@ -81,7 +83,7 @@ body {
 
 .about > div {
   display: flex;
-  flex: 2 0 0;
+  flex: 1 0 0;
 }
 
 .about-box {
@@ -145,6 +147,13 @@ body {
 
   .header-color {
     transform: rotate(-8deg) translateX(-70px) translateY(-30px);
+  }
+
+  .profile-photo {
+    align-self: center;
+    flex: 1 0 400px;
+    width: 300px;
+    height: 400px;
   }
 
   .about-box {
